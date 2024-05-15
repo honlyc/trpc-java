@@ -51,7 +51,7 @@ public class ClientApplication {
                 System.out.println("service2>>>>" + syncGetMessage(service2.sayHi(ctx, request)));
                 System.out.println("demo service1>>>>" +
                         syncGetMessage(demoService.getGreeterService().sayHello(ctx, request)));
-                System.out.println("demo service2>>>>" +
+                System.out.println("demo service2>>>" +
                         syncGetMessage(demoService.getGreeterService2().sayHi(ctx, request)));
                 TimeUnit.SECONDS.sleep(1);
             }
