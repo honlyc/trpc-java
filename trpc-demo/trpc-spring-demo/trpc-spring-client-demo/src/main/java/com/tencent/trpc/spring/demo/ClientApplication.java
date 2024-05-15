@@ -49,7 +49,7 @@ public class ClientApplication {
             for (int i = 0; i < times; i++) {
                 System.out.println("service1>>>>" + syncGetMessage(service1.sayHello(ctx, request)));
                 System.out.println("service2>>>>" + syncGetMessage(service2.sayHi(ctx, request)));
-                System.out.println("demo service1>>>>" +
+                System.out.println("demo service1>>>" +
                         syncGetMessage(demoService.getGreeterService().sayHello(ctx, request)));
                 System.out.println("demo service2>>>" +
                         syncGetMessage(demoService.getGreeterService2().sayHi(ctx, request)));
