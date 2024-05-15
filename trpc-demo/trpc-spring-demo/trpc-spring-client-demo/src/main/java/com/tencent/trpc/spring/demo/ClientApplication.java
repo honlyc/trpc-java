@@ -26,7 +26,7 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.ConfigurableApplicationContext;
 
 /**
- * ClientApplication.
+ * ClientApplication
  */
 @EnableTRpc
 @SpringBootApplication
